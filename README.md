@@ -7,9 +7,9 @@ A minimal TCP port scanner written in Python using raw sockets. Inspired by hack
 - Takes an IP and port range as input
 - Checks each TCP port to see if it's open
 - Prints all open ports with timing
-- CLI-only, pure Python (3.10+)
+- CLI-only
 
 ## 🚀 Example
 
 ```bash
-python scanner.py 192.168.0.1 20 100
+python3 scanner.py 192.168.0.1 20 100
